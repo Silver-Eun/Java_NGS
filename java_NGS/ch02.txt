@@ -25,3 +25,9 @@
 - 정수 : byte, short, int, long
 - 실수 : float, double
 - 논리 : boolean(true, false)
+
+상수
+- 한 번만 값을 저장 가능한 변수
+
+리터럴
+- 그 자체로 값을 의미하는 것
