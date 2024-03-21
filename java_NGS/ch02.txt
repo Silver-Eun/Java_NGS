@@ -61,3 +61,9 @@
 - tmp = x; // x의 값을 tmp에 저장
 - x = y; // x의 값을 y에 저장
 - y = tmp; // tmp의 값을 y에 저장
+
+기본형과 참조형
+- 기본형 : boolean, char, byte, short, int, long, float, double
+- 실제값을 저장
+- 참조형 : String, System 등(기본형을 제외한 나머지)
+- 메모리 주소를 저장
