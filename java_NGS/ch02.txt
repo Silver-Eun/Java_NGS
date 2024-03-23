@@ -104,3 +104,13 @@ printf()의 지시자
 - %05d : 빈자리 0으로 채움
 - %14.10f : 전체 14자리 중 소수점 아래는 10자
 - %.8s : 문자열 앞 8자리만 출력
+
+Scanner
+- 화면으로부터 데이터를 입력받는 기능을 제공하는 클래스
+
+Scanner를 사용하려면
+- import java.util.*; 추가
+- Scanner sc = new Scanner(System.in); 생성
+- int num = sc.nextInt(); 사용
+- String input = sc.nextLine();
+  int num = Integer.parseInt(input); 사용
