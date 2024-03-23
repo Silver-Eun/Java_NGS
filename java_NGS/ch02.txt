@@ -114,3 +114,8 @@ Scanner를 사용하려면
 - int num = sc.nextInt(); 사용
 - String input = sc.nextLine();
   int num = Integer.parseInt(input); 사용
+
+타입 간의 변환
+- 문자와 숫자 간의 변환
+- 문자열로의 변환
+- 문자열을 숫자로 변환
