@@ -44,3 +44,11 @@
   byte b = (byte)i; // byte타입으로 형변환
 - byte b = 1000; // 에러
   byte b = (byte)1000; // 값 손실이 발생하여 -24가 저장됨
+  
+산술 변환
+- 연산 전에 피연산자의 타입을 일치시키는것
+- 두 연산자의 타입을 같게 일치시킴(보다 큰 타입으로)
+  피연산자의 타입이 int보다 작은 타입이면 int로 변환
+- long + int → long + long → long
+  float + int → float + float → float
+  double + float → double + double → double
