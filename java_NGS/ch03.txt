@@ -69,3 +69,11 @@
   String str2 = new String("abc");
   System.out.println(str1 == str2); // false
   System.out.println(str1.equals(str2)); // true
+  
+논리 연산자
+- 조건식을 연결할 때 사용하는 연산자
+- ||(OR결합) 피연산자 중 어느 한 쪽이 true면 true
+- &&(AND결합) 피연산자 중 양 쪽이 true면 true
+
+논리 부정 연산자 !
+- true를 false로, false를 true로 바꿈
