@@ -1,10 +1,10 @@
 class Ex4_10 {
 	public static void main(String[] args) { 
-		int sum = 0;	// ÇÕ°è¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö.
+		int sum = 0;
 
 		for(int i=1; i <= 5; i++) {
 			sum += i ;	// sum = sum + i;
-			System.out.printf("1ºÎÅÍ %2d ±îÁöÀÇ ÇÕ: %2d%n", i, sum);
+			System.out.printf("1ë¶€í„° %2dê¹Œì§€ì˜ í•© : %2d%n", i, sum);
 		}
-	} // mainÀÇ ³¡
+	}
 }

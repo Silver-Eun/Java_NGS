@@ -1,7 +1,11 @@
 class Ex4_8 {
 	public static void main(String args[]) {
-		for (int i = 1; i <= 3; i++) { // °ýÈ£{}¾ÈÀÇ ¹®ÀåÀ» 3¹ø ¹Ýº¹
-			System.out.println("Hello");
+		// ê´„í˜¸ ì•ˆì˜ ë¬¸ìž¥ì„ 3ë²ˆ ë°˜ë³µ
+//		for (int i = 1; i <= 3; i++) {
+//		for (int i = 1; i <= 10; i = i * 2) {
+//			System.out.println("Hello");
+		for (int i = 1, j = 10; i <= 10; i++, j--) {
+			System.out.println("i=" + i + ", j=" + j);
 		}
 	}
 }
