@@ -1,34 +1,36 @@
 import java.util.Scanner;
 
 class Ex4_5 {
-	public static void main(String[] args) { 
-		int  score = 0;
-		char grade = ' ', opt = '0';
+	public static void main(String[] args) {
+		int score = 0;
+		char grade = 'C', opt = '0';
 
-		System.out.print("¡°ºˆ∏¶ ¿‘∑¬«ÿ¡÷ººø‰.>");
+		System.out.print("Ï†êÏàòÎ•º ÏûÖÎ†•Ìï¥Ï£ºÏÑ∏Ïöî>");
 
-		Scanner scanner = new Scanner(System.in);
-		score = scanner.nextInt(); // »≠∏È¿ª ≈Î«ÿ ¿‘∑¬πﬁ¿∫ ¡°ºˆ∏¶ scoreø° ¿˙¿Â
+		Scanner sc = new Scanner(System.in);
+		score = sc.nextInt();
+		sc.close();
 
-		System.out.printf("¥ÁΩ≈¿« ¡°ºˆ¥¬ %d¿‘¥œ¥Ÿ.%n", score);
+		System.out.printf("ÎãπÏã†Ïùò Ï†êÏàòÎäî %dÏûÖÎãàÎã§.%n", score);
 
-		if (score >= 90) {           // score∞° 90¡° ∫∏¥Ÿ ∞∞∞≈≥™ ≈©∏È A«–¡°(grade)
+		if (score >= 90) {
 			grade = 'A';
-			if (score >= 98) {        // 90¡° ¿ÃªÛ ¡ﬂø°º≠µµ 98¡° ¿ÃªÛ¿∫ A+
-				opt = '+';	
-			} else if (score < 94) {  // 90¡° ¿ÃªÛ 94¡° πÃ∏∏¿∫ A-
+			if (score >= 98) {
+				opt = '+';
+			} else if (score < 94) {
 				opt = '-';
 			}
-		} else if (score >= 80){     // score∞° 80¡° ∫∏¥Ÿ ∞∞∞≈≥™ ≈©∏È B«–¡°(grade)
+		} else if (score >= 80) {
 			grade = 'B';
 			if (score >= 88) {
 				opt = '+';
-			} else if (score < 84)	{
+			} else if (score < 84) {
 				opt = '-';
 			}
-		} else {                     // ≥™∏”¡ˆ¥¬ C«–¡°(grade)
-			grade = 'C';
-		}	
-		System.out.printf("¥ÁΩ≈¿« «–¡°¿∫ %c%c¿‘¥œ¥Ÿ.%n", grade, opt);
+		}
+//		else {
+//			grade = 'C';
+//		}
+		System.out.printf("ÎãπÏã†Ïùò ÌïôÏ†êÏùÄ %c%cÏûÖÎãàÎã§.%n", grade, opt);
 	}
 }
