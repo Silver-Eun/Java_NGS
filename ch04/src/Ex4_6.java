@@ -1,27 +1,32 @@
 import java.util.Scanner;
 
 class Ex4_6 {
-	public static void main(String[] args) { 
-		System.out.print("ÇöÀç ¿ùÀ» ÀÔ·ÂÇÏ¼¼¿ä.>");
+	public static void main(String[] args) {
+		System.out.print("í˜„ì¬ ì›”ì„ ì…ë ¥í•˜ì„¸ìš”>");
 
-		Scanner scanner = new Scanner(System.in);
-		int month = scanner.nextInt();  // È­¸éÀ» ÅëÇØ ÀÔ·Â¹ŞÀº ¼ıÀÚ¸¦ month¿¡ ÀúÀå
+		Scanner sc = new Scanner(System.in);
+		int month = sc.nextInt();
+		sc.close();
 
-		switch(month) {
-			case 3: 
-			case 4: 
-			case 5:
-				System.out.println("ÇöÀçÀÇ °èÀıÀº º½ÀÔ´Ï´Ù.");
-				break;
-			case 6: case 7: case 8:
-				System.out.println("ÇöÀçÀÇ °èÀıÀº ¿©¸§ÀÔ´Ï´Ù.");
-				break;
-			case 9: case 10: case 11:
-				System.out.println("ÇöÀçÀÇ °èÀıÀº °¡À»ÀÔ´Ï´Ù.");
-				break;
-			default:
-	//		case 12:	case 1: case 2:
-				System.out.println("ÇöÀçÀÇ °èÀıÀº °Ü¿ïÀÔ´Ï´Ù.");
+		switch (month) {
+		case 3:
+		case 4:
+		case 5:
+			System.out.println("í˜„ì¬ ê³„ì ˆì€ ë´„ì…ë‹ˆë‹¤.");
+			break;
+		case 6:
+		case 7:
+		case 8:
+			System.out.println("í˜„ì¬ ê³„ì ˆì€ ì—¬ë¦„ì…ë‹ˆë‹¤.");
+			break;
+		case 9:
+		case 10:
+		case 11:
+			System.out.println("í˜„ì¬ ê³„ì ˆì€ ê°€ì„ì…ë‹ˆë‹¤.");
+			break;
+		default:
+			// case 12: case 1: case 2:
+			System.out.println("í˜„ì¬ ê³„ì ˆì€ ê²¨ìš¸ì…ë‹ˆë‹¤.");
 		}
-	} // mainÀÇ ³¡
+	} // mainï¿½ï¿½ ï¿½ï¿½
 }
